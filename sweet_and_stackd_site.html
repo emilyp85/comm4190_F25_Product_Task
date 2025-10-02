@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sweet & Stack’d™ – Snack the Stack</title>
+<style>
+  :root{
+    --bg:#FFF9EE;--brown:#4B2E23;--maple:#C9771D;--honey:#F4B73B;--butter:#FFD46B;--ink:#0f172a;
+  }
+  html,body{margin:0;padding:0;background:var(--bg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 16px;}
+  header{position:sticky;top:0;z-index:50;background:rgba(255,247,232,.85);backdrop-filter:saturate(1.1) blur(6px);border-bottom:1px solid #00000012;}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;}
+  .logo{color:var(--honey);font-weight:900;font-size:38px;line-height:1;text-shadow:3px 3px 0 var(--brown);font-family:Georgia,'Times New Roman',serif;user-select:none}
+  .pill{background:#fde68a;color:#78350f;border:1px solid #78350f33;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;margin-left:8px}
+  a.cta{background:#d97706;color:#fff;text-decoration:none;padding:10px 16px;border-radius:14px;font-weight:700}
+  a.cta:hover{background:#b45309}
+  .section{padding:56px 0}
+  h1{font-size:48px;margin:12px 0 8px;color:#78350f}
+  h2{font-size:32px;margin:0 0 10px;color:#78350f}
+  p{color:#334155;line-height:1.6}
+  .badges span{display:inline-flex;align-items:center;background:#fef3c7;border:1px solid #78350f22;color:#92400e;font-size:14px;border-radius:999px;padding:6px 12px;margin:6px 6px 0 0}
+  .grid{display:grid;gap:18px}
+  @media(min-width:900px){.hero{grid-template-columns:1.1fr .9fr} .cols-3{grid-template-columns:repeat(3,1fr)}}
+  .card{background:#fff;border:1px solid #00000014;border-radius:16px;box-shadow:0 6px 20px #0000000a;padding:18px}
+  .bag{background:linear-gradient(#ffe8a7,#ffd67a);border-radius:16px;padding:20px;text-align:center}
+  .stars{color:#d97706}
+  .price{color:#b45309;font-size:28px;font-weight:900}
+  .btn{display:block;background:#d97706;color:#fff;text-align:center;text-decoration:none;padding:10px;border-radius:12px;margin-top:12px;font-weight:700}
+  .btn:hover{background:#b45309}
+  footer{background:#fff;border-top:1px solid #00000012}
+  .drip{width:100%;height:32px;background:linear-gradient(180deg, rgba(244,183,59,1) 0%, rgba(244,183,59,1) 60%, rgba(0,0,0,0) 60%);mask:radial-gradient(20px 16px at 2% 70%,#0000 98%,#000) repeat-x,left/60px 100%;}
+  details{border:1px solid #00000014;background:#fff;border-radius:12px;padding:12px}
+  summary{cursor:pointer;font-weight:700;color:#111827}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div class="logo">Sweet & Stack’d</div>
+      <span class="pill">New</span>
+    </div>
+    <nav style="display:flex;gap:16px;align-items:center">
+      <a href="#features">Features</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#buy">Buy</a>
+      <a class="cta" href="#buy">Snack the Stack™</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="section">
+    <div class="wrap grid hero" style="align-items:center;gap:28px">
+      <div>
+        <div class="pill" style="display:inline-flex">Breakfast Meets Crunch</div>
+        <h1>Pancakes, but Make It Crunchy</h1>
+        <p><strong>Sweet & Stack’d™</strong> flips golden pancake bliss— buttery, honeyed, and a whisper of maple—into an anytime, anywhere snack with a crave‑worthy ridged crunch.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:14px">
+          <a href="#buy" class="cta">Buy Now</a>
+          <a href="#story" class="cta" style="background:#fff;color:#92400e;border:1px solid #78350f33">Learn More</a>
+          <div style="display:flex;align-items:center;gap:6px;color:#b45309"><span class="stars">★★★★★</span> <small>4.9/5 snackers approve</small></div>
+        </div>
+        <div class="badges" style="margin-top:12px">
+          <span>Honey‑Maple</span><span>Buttery Crunch</span><span>Sweet–Savory Balance</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="bag">
+          <div class="logo" style="font-size:42px">Sweet & Stack’d</div>
+          <p style="margin:6px 0 2px;color:#92400e;font-weight:700">Honey Butter Hotcake Flavor</p>
+          <div style="height:120px;border-radius:14px;background:radial-gradient(circle at 30% 30%,#FFE9A8 0 60%,transparent 61%),radial-gradient(circle at 70% 70%,#FFD46B 0 55%,transparent 56%);margin:14px 0"></div>
+          <p style="font-size:12px;color:#475569">Ridged potato chips • Net wt. 6 oz</p>
+        </div>
+      </div>
+    </div>
+    <div class="drip"></div>
+  </section>
+
+  <!-- STORY -->
+  <section id="story" class="section" style="background:#fde68a3d">
+    <div class="wrap">
+      <h2>The Sweet & Stack’d™ Story</h2>
+      <p>Born from cozy brunch vibes and late‑night cravings, Sweet & Stack’d™ is comfort food reimagined for real life. We took the crispy edge of pancakes, the glow of warm honey, and a buttery finish and stacked them into a chip that just makes sense.</p>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="wrap">
+      <h2>Why You’ll Crave It</h2>
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="card"><div style="font-size:28px;margin-bottom:6px">🥞</div><strong>Breakfast‑Inspired Flavor</strong><p>Buttery pancake notes with a drizzle of honey and maple sweetness.</p></div>
+        <div class="card"><div style="font-size:28px;margin-bottom:6px">🍯</div><strong>Sweet–Savory Balance</strong><p>Comforting sweetness meets salty chip satisfaction for endless munchability.</p></div>
+        <div class="card"><div style="font-size:28px;margin-bottom:6px">🔥</div><strong>Extra Crunch, Extra Seasoning</strong><p>Ridged texture locks in more flavor for a perfect bite every time.</p></div>
+      </div>
+      <div class="card" style="margin-top:14px;font-size:14px">
+        <strong>Ingredients (concept):</strong> potatoes, sunflower oil, sugar, salt, natural flavors (honey, maple), butter powder (milk), spices.
+        <em> Allergen:</em> contains milk.
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="section" style="background:#fff">
+    <div class="wrap">
+      <h2>Real Snackers, Real Love</h2>
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="card"><div class="stars">★★★★★</div><blockquote>“Tastes like brunch in a bag. Sweet, salty, and totally addictive.”</blockquote><figcaption>— Ava M.</figcaption></div>
+        <div class="card"><div class="stars">★★★★★</div><blockquote>“The honey‑maple aftertaste is perfection. I finished the bag in one sitting.”</blockquote><figcaption>— Jordan P.</figcaption></div>
+        <div class="card"><div class="stars">★★★★★</div><blockquote>“Finally a sweet‑savory chip that actually balances both. New favorite!”</blockquote><figcaption>— Sam K.</figcaption></div>
+      </div>
+      <p style="text-align:center;font-size:12px;color:#64748b;margin-top:8px">Average rating 4.9/5 from early taste tests.</p>
+    </div>
+  </section>
+
+  <!-- BUY -->
+  <section id="buy" class="section" style="background:linear-gradient(#fff7ed,#fde68a)">
+    <div class="wrap">
+      <h2>Get Sweet & Stack’d™</h2>
+      <div class="grid cols-3" style="margin-top:12px">
+        <div class="card">
+          <h3>Single Bag</h3>
+          <p>Net wt. 6 oz • Limited Launch</p>
+          <p class="price">$3.99</p>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="card" style="outline:2px solid #f59e0b;position:relative">
+          <span style="position:absolute;left:50%;transform:translateX(-50%);top:-10px;background:#92400e;color:#fff;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:700">Best Value</span>
+          <h3>Party Pack (6)</h3>
+          <p>Perfect for movie nights & study sessions</p>
+          <p class="price">$21.99</p>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="card">
+          <h3>Subscribe & Snack</h3>
+          <p>Monthly delivery • Cancel anytime</p>
+          <p class="price">$3.59 <span style="font-size:14px;color:#475569;font-weight:600">/ bag</span></p>
+          <a href="#" class="btn">Start Subscription</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section" style="background:#fff7ed">
+    <div class="wrap">
+      <h2>FAQ</h2>
+      <div class="grid" style="margin-top:10px">
+        <details open><summary>Is it really sweet and savory?</summary><p>Yes! Expect a balanced hit of salty chip goodness followed by buttery honey‑maple notes.</p></details>
+        <details><summary>Is this gluten‑free?</summary><p>The base is potato; check final production labels for certified gluten‑free status.</p></details>
+        <details><summary>What’s the slogan?</summary><p><strong>Snack the Stack™</strong> — because pancakes shouldn’t have to wait for morning.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div class="logo" style="font-size:28px">Sweet & Stack’d</div>
+      <small style="color:#64748b">© 2025 Sweet & Stack’d™</small>
+    </div>
+    <nav style="display:flex;gap:12px"><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Twitter/X</a><a href="#">Contact</a></nav>
+  </div>
+</footer>
+</body>
+</html>

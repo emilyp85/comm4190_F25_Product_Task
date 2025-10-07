@@ -1,1 +1,7 @@
 # comm4190_F25_Product_Task
+
+This repository contains our group’s creative marketing project exploring how generative AI tools can assist in product development and branding. Our chosen product is Maple Bacon Latte Chips, an original potato chip flavor that combines smoky bacon, sweet maple syrup, and a subtle coffee finish to create a bold, breakfast-inspired crunch.
+
+The purpose of this project was to use prompting techniques to generate and refine all the components of a cohesive product marketing campaign. We used ChatGPT to develop the product name, slogan, detailed descriptions in multiple tones, and a list of unique features and selling points. We also explored logo design concepts, drafted mock customer reviews, and created promotional website-style content for the chip flavor. To accompany the written materials, we used AI image generation tools to design a visual mockup of the product’s webpage.
+
+Our group collaborated to brainstorm several creative chip flavor ideas before selecting the two strongest concepts to fully develop. Maple Bacon Latte Chips was one of our final choices for presentation. Each team member contributed to different aspects of the project, including idea generation, copywriting, editing, and design feedback. Together, we aimed to demonstrate how AI can enhance creativity, streamline branding processes, and produce professional-quality marketing materials.
